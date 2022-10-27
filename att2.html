@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        n1 = parseFloat(prompt("digete a sua primeira nota:"))
+        n2 = parseFloat(prompt("digete a sua segunda nota:"))
+        n1 += n2
+        resu = (21-(n1))
+        veri = (resu <11) ? (true) : (false)
+        if (veri == true) {
+            window.alert(`você precisa tira ${resu} ponto para passar com media 7`)
+        }
+        else{
+            window.alert("não é possivel que você passe com media 7")
+        }
+    </script>
+</body>
+</html>
